@@ -1,4 +1,6 @@
 toston_tolon_website
 ====================
 
-Website design and developed for a food stall. 
+Website designed and developed for a food stall. 
+
+www.tostontolon.com

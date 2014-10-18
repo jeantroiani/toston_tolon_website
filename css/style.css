@@ -1,0 +1,476 @@
+/*  General */
+h1,h2,h3{
+	padding: 0px;
+	margin:0px;
+}
+
+body{
+	color: #f7f2e9;
+	font-size: 14px;
+	background: #272727 url("../images/background_darkwall.png");
+	font-family: "Open Sans",arial, sans-serif;
+
+}
+
+.container {
+position: relative;
+width:960px;
+margin: 0 auto;
+padding:0px;
+
+}
+
+
+/*   Top Navigation  */
+
+
+
+#logo{
+	position: relative ;
+	float: right;
+	
+	right: 180px;
+	height:126px ;
+	width: 580px;
+	
+	background: url("../images/roseta.png") bottom right no-repeat;
+
+padding-top: 30px;
+	
+
+}
+
+#toston_logo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#logo{
+	back
+}
+
+.navigation{
+clear:both;
+	display: block;
+	
+	
+	
+}
+
+.navigation ul{
+	
+	margin: 0px auto;
+	background: url("../images/nav_background.png") center center no-repeat;
+	height: 70px;
+	text-align: center;
+
+
+
+}
+
+.navigation ul li{
+	
+	display: inline-block;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height: 68px;
+	letter-spacing: 0.15em;
+
+}
+
+#title {
+	text-align: center;
+	padding: 10px 0px;
+	
+	
+	
+}
+
+#title h1{
+	width: 441px;
+	display: inline-block;
+	
+}
+
+#title h2{
+	
+	clear: both;
+
+}
+
+#social {
+	display: inline-block;
+}
+
+
+#title #social li {
+display: inline-block;
+}
+
+
+
+#title #social li a{
+display: inline-block;
+height: 60px;
+width: 54px;
+
+}
+
+#twitter a{
+	position: relative;
+	bottom:10px;
+	background: url("../images/twitter_logo.png")center center no-repeat;
+	text-indent: -9999px;
+}
+#facebook a{
+	position: relative;
+	bottom:10px;
+	background: url("../images/facebook_logo.png")center center no-repeat;
+	text-indent: -9999px;
+}
+
+
+
+/*   typography  */
+
+
+
+#title h1{
+	text-indent: -9999px;
+	height: 60px;
+	background: url("../images/homemade_venezuelan.png") center center no-repeat;
+	padding: 0px;
+	margin: 0px;
+}
+#title h2{
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: 300;
+}
+
+#menu h2{
+	font-size: 1.8em;
+font-family: 'Satisfy', cursive;
+	text-align: center;
+	letter-spacing: 0.05em;
+	font-weight: lighter;
+
+
+
+}
+
+#menu .menu-pronunciation{
+	font-size: 1.3em;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+
+#menu p{
+	font-style: italic;
+	font-weight: 300;
+}
+
+.menu_column{
+
+	width:242px;
+	float:left;
+	margin: 5px 38px;
+	padding-top:40px;	
+}
+.images{
+	
+	margin: 5px 0px;
+}
+
+.menu-ribbon-yellow{
+	margin: 0px auto;
+	background: url('../images/ribbon_yellow.png') center center no-repeat;
+}
+.menu-ribbon-red{
+	margin: 0px auto;
+	background: url('../images/ribbon_red.png') center center no-repeat;
+}
+.menu-ribbon-blue{
+	margin: 0px auto;
+	background: url('../images/ribbon_blue.png') center center no-repeat;
+}
+
+.vegetarian{
+	text-indent: -9999px;
+	background: url("../images/vegetarian_icon.png")center left no-repeat;
+	height: 28px;
+	width: 28px;
+	
+}
+.vegetarian_option{
+	background: url("../images/vegetarian_icon.png")center left no-repeat;
+	padding-left: 35px;
+	height: 30px;
+	width: 200px;
+
+}
+
+
+
+#desserts{
+	position: relative;
+	clear: both;
+	color: black;
+	
+}
+
+#desserts{
+	width: 925px;
+	height:349px;
+background: url('../images/plantain_dessertchart.png');
+}
+
+#desserts_menu {
+	display: block;
+	position: absolute;
+	top: 8%;
+	right: 3%;
+height: 215px;
+width: 390px;
+
+}
+
+#desserts h2{
+	font-weight: bold;
+	padding: 5px 0px 0px;
+	
+
+
+}
+
+}
+#desserts h3{
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+
+}
+#desserts .dessert-pronunciation{
+	font-weight: 400;
+	font-size: 1.3;
+}
+
+#desserts p{
+	padding: 0px;
+	margin: 2px;
+font-style: normal;
+font-size: .85em;
+
+}
+
+#dessert_column_right{
+	position: absolute;
+	bottom: 10%;
+	right: 0%;
+	
+	width: 146px;
+	float: left;
+}
+
+#dessert_column_left{
+width: 240px;
+float: left;
+}
+
+#catering p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+#catering h2{
+font-size: 3.8em;
+font-weight: lighter;
+-webkit-text-stroke: 0.6px;
+}
+
+#catering h3{
+	font-size: 2.7em;
+	font-weight:400;
+	letter-spacing: 0.05em;
+}
+
+#catering .deliver{
+	font-style: italic;
+	font-size: 1em;
+} 
+
+.catering_information{
+	text-align: center;
+	float: left;
+	width: 370px;
+	padding-bottom: 200px;
+	background: url("../images/rosetta_end.png")bottom center no-repeat;
+	}
+
+.catering_menu{
+
+	float: left;
+
+	width: 360px;
+	
+	margin: 0px 0px 0px 20px;
+	
+}
+
+#catering{
+
+	background: url("../images/Pepper_Avocado.png")bottom right no-repeat;
+
+}
+
+/*
+.active{
+	padding-bottom: 12px;
+	line-height: 68px;
+	background: url("../images/navigation_hover_line.png")bottom center no-repeat;
+}
+*/
+.navigation a{
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.navigation a:link{
+color: #070707;
+
+}
+
+.navigation a:visited {
+	color: #070707;
+}
+
+.navigation a:hover{
+	padding-bottom: 12px;
+	line-height: 68px;
+	background: url("../images/navigation_hover_line.png")bottom center no-repeat;
+}
+
+.navigation a:active{
+	padding-bottom: 12px;
+	line-height: 68px;
+	background: url("../images/navigation_hover_line.png")bottom center no-repeat;
+}
+
+/*  body   */
+
+.divider{
+	margin: 0px auto;
+background: url("../images/dotted_horizontal_line.png") center center no-repeat;
+height: 60px;
+width: 900px;
+}
+
+hr {border:none;}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logo_background{
+
+background:url('../images/rosetta_background.png')center center no-repeat;
+
+}
+
+
+
+/* Home information */
+#home_body img {
+	float: left;
+	color: red;
+
+}
+#home_body p {
+	float: left;
+	width: 240px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	 }
+#footer_illustration{
+	width: 940px;
+	height: 190px;
+	background: url("../images/rosetta_end.png")bottom left no-repeat;
+	
+		
+
+}
+#gallery h2{
+	
+	display: inline-block;
+	font-family: 'Satisfy', cursive;
+	font-size: 6em;
+	position: relative;
+	bottom:32px;
+	padding: 10px;
+	-webkit-text-stroke: 0.6px;
+
+}
+#gallery p{
+	width: 450px;
+	display: inline-block;
+	text-align: justify;
+	font-size: 1.2em;
+	line-height: 1.8em;
+
+}
+#gallery_info {
+	position: relative;
+	text-align: center;
+	margin: 0px auto;
+	
+
+}
+#gallery_album {
+	width: 880px;
+	margin: 0px auto;
+	
+}
+/* Find us */
+#find_us_body{
+	
+	text-align: center;
+}
+.map{
+	position: relative;
+	margin: 10px auto;
+	height:600px ;
+	width:700px;
+	background: url("../images/find_us.png") center center no-repeat;
+
+	
+}
+
+iframe {
+	position: relative;
+	top: 20px;
+	width:600px; height:450px;
+	border: none;
+ 
+}
+#find_us_body h1{
+	position: relative;
+	left: 120px;
+	width: 500px;
+}
+
+#find_us_body p{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	text-align: left;
+	font-size: 1.5em;
+	color: #070707;
+}
+
